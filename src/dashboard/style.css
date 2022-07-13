@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+i{
+    color:black;
+    font-size: 50px;
+    width: 20px;
+    /* background-color: aqua; */
+    padding: 0.4rem;
+    border-radius: 50%;
+    padding-right: 1.4rem;
+    align-items: center;
+}
+.table1{
+    border: none;
+}
+.nav-item1{
+    float: left;
+}
+.ul_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 6rem;
+    /* background-color: aqua; */
+}
+.ul_center li{
+    /* padding-left: -7rem; */
+    color: black;
+}
+.ul_center li a{
+    /* margin-right: 2rem; */
+    margin-left: 9rem;
+    padding: 0;
+    margin: 0;
+    padding-right: 2rem;
+}
+.Main_item{
+  margin-top:1rem;
+  
+}
+.Main_item .Main_item_add{
+  width: 200px;
+  height: 100px;
+  margin-left: -5rem;
+  cursor: pointer;
+  /* margin-right: -3r; */
+  /* background-color: blue; */
+}
+.Main_item_add_text{
+  font-size: 1rem;
+  margin-top:-0.4rem;
+  margin-left:1rem;
+  
+}
+.Main_item_add i{
+  color: aquamarine;
+}
+.Main_item_add_text_num{
+  font-size: 1.3rem;
+  margin-top:-0.5rem;
+  margin-left:1rem;
+}
+.Main_item_add_text_num span{
+  font-size: 0.8rem;
+}
+.flex_r{
+  margin-top: 2rem;
+}
+.col_xxl{
+  background-color: blue;
+}
+.col_xxl div div{
+  width: 300px;
+  height: auto;
+  background-color: brown;
+}
+.col_xxl div div div{
+  float: right;
+}
+.list-group1{
+  border: none;
+}
+.list-group2 span {
+  background-color: aqua;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  padding-bottom: 0.8rem;
+  width: 50px;
+  border-radius: 1rem
+}
+i{
+  color: aquamarine;
+}
+.bg_color{
+  background: linear-gradient(180deg,#E2E2E2,#C9D6FF); 
+  opacity: 0.9;
+}
+.btn_close1{
+  margin-right: 5rem;/* background-color: black; */
+  color: black;
+  float: right;
+}
+.btn_close1 i{
+  color: black;
+  margin-top: -1rem;
+  margin-right: 5rem;
+  /* margin-left: rem; */
+}
+.card_hux a div{
+  border: none;
+}
+.card_hux{
+  background-color: aqua;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  /* padding-bottom: 0.8rem; */
+  width: 50px;
+  color: black;
+  border-radius: 1rem
+}
+.card_hux1{
+  font-size: 0.9rem;
+  color: aqua;
+}
+.card_hux2{
+  font-size: 0.9rem;
+  color: aqua;
+}
+.list-group2{
+  border: none;
+}
+.card_a_title{
+  margin-left: 2rem;
+}
