@@ -74,14 +74,14 @@ function Navbar() {
       </div>
       <div class="modal-body">
       <label>Number of Invites</label><br></br>
-          <input type="number"  placeholder="Number Of intive" min={2} required 
+          <input type="number"  placeholder="Number Of intive" min={1} required 
                         value={value1}
                         onChange={(e)=>setValue3(e.target.value)}
                     />
                     <br></br>
                     <br></br>
                       <label>Duration of Event</label><br></br>
-                      <input type="number"  placeholder="Number Of time" min={5} required 
+                      <input type="number"  placeholder="Number Of time" min={1} required 
                         value={value2}
                         onChange={(e)=>setValue4(e.target.value)}
                         
